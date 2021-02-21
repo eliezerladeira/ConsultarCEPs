@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ConsultarCEPs
 {
-    public partial class Form1 : Form
+    public partial class frmConsultarCeps : Form
     {
-        public Form1()
+        public frmConsultarCeps()
         {
             InitializeComponent();
         }
