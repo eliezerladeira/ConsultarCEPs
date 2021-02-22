@@ -16,5 +16,27 @@ namespace ConsultarCEPs
         {
             InitializeComponent();
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(txtCep.Text))
+            {
+
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtCep.Text = string.Empty;
+            txtEndereco.Text = string.Empty;
+            txtBairro.Text = string.Empty;
+            txtCidade.Text = string.Empty;
+            txtEstado.Text = string.Empty;
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -158,6 +158,7 @@
             this.btnPesquisar.Size = new System.Drawing.Size(284, 66);
             this.btnPesquisar.TabIndex = 10;
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnSair
             // 
@@ -169,6 +170,7 @@
             this.btnSair.TabIndex = 11;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnLimpar
             // 
@@ -180,6 +182,7 @@
             this.btnLimpar.TabIndex = 12;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // frmConsultarCeps
             // 
