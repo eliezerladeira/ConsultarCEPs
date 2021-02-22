@@ -1,0 +1,10 @@
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\bin\Debug\ConsultarCEPs.exe.config
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\bin\Debug\ConsultarCEPs.exe
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\bin\Debug\ConsultarCEPs.pdb
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.csprojAssemblyReference.cache
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.frmConsultarCeps.resources
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.Properties.Resources.resources
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.csproj.GenerateResource.cache
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.csproj.CoreCompileInputs.cache
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.exe
+C:\Users\eliez\OneDrive\Projetos\ConsultarCEPs\ConsultarCEPs\obj\Debug\ConsultarCEPs.pdb

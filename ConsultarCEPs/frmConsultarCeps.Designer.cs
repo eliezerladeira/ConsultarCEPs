@@ -31,14 +31,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtCep = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtEndereco = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtBairro = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtCidade = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
@@ -79,43 +79,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Resultado";
             // 
-            // txtEndereco
+            // txtEstado
             // 
-            this.txtEndereco.BackColor = System.Drawing.Color.LightGray;
-            this.txtEndereco.Location = new System.Drawing.Point(17, 47);
-            this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(512, 20);
-            this.txtEndereco.TabIndex = 3;
+            this.txtEstado.BackColor = System.Drawing.Color.LightGray;
+            this.txtEstado.Enabled = false;
+            this.txtEstado.Location = new System.Drawing.Point(17, 200);
+            this.txtEstado.Name = "txtEstado";
+            this.txtEstado.Size = new System.Drawing.Size(512, 20);
+            this.txtEstado.TabIndex = 9;
             // 
-            // label2
+            // label5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 31);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Endereço";
-            // 
-            // txtBairro
-            // 
-            this.txtBairro.BackColor = System.Drawing.Color.LightGray;
-            this.txtBairro.Location = new System.Drawing.Point(17, 98);
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(512, 20);
-            this.txtBairro.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 82);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Bairro";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(14, 184);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Estado";
             // 
             // txtCidade
             // 
             this.txtCidade.BackColor = System.Drawing.Color.LightGray;
+            this.txtCidade.Enabled = false;
             this.txtCidade.Location = new System.Drawing.Point(17, 149);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(512, 20);
@@ -130,22 +115,41 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Cidade";
             // 
-            // txtEstado
+            // txtBairro
             // 
-            this.txtEstado.BackColor = System.Drawing.Color.LightGray;
-            this.txtEstado.Location = new System.Drawing.Point(17, 200);
-            this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(512, 20);
-            this.txtEstado.TabIndex = 9;
+            this.txtBairro.BackColor = System.Drawing.Color.LightGray;
+            this.txtBairro.Enabled = false;
+            this.txtBairro.Location = new System.Drawing.Point(17, 98);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(512, 20);
+            this.txtBairro.TabIndex = 5;
             // 
-            // label5
+            // label3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 184);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Estado";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 82);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Bairro";
+            // 
+            // txtEndereco
+            // 
+            this.txtEndereco.BackColor = System.Drawing.Color.LightGray;
+            this.txtEndereco.Enabled = false;
+            this.txtEndereco.Location = new System.Drawing.Point(17, 47);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(512, 20);
+            this.txtEndereco.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Endereço";
             // 
             // btnPesquisar
             // 

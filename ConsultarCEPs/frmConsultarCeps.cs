@@ -21,7 +21,26 @@ namespace ConsultarCEPs
         {
             if (!string.IsNullOrWhiteSpace(txtCep.Text))
             {
+                using (var ws = new WSCorreios.AtendeClienteClient())
+                {
+                    try
+                    {
+                        var endereco = ws.consultaCEP(txtCep.Text.Trim());
 
+                        txtEndereco.Text = endereco.end;
+                        txtBairro.Text = endereco.bairro;
+                        txtCidade.Text = endereco.cidade;
+                        txtEstado.Text = endereco.uf;
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("O campo CEP não pode ser vazio!", this.Text,MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
@@ -32,6 +51,7 @@ namespace ConsultarCEPs
             txtBairro.Text = string.Empty;
             txtCidade.Text = string.Empty;
             txtEstado.Text = string.Empty;
+            txtCep.Focus();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
